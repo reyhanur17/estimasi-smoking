@@ -170,7 +170,7 @@ plt.title("Perbandingan data perempuan dan laki-laki di dataset")
 df["gender"].value_counts().plot.pie(explode = [0, 0.15], autopct='%1.3f%%', shadow = True)
 ```
 
-![Alt text](3.png)
+![Alt text](pie chart2.png)
 
 lalu saya akan membuat diagram batang (bar chart) yang menunjukkan jumlah perokok berdasarkan jenis kelamin (gender)
 
@@ -185,7 +185,7 @@ plt.ylabel("Jumlah Perokok Berdasarkan Gender")
 plt.tight_layout()
 ```
 
-![Alt text](4.png)
+![Alt text](bar chart.png)
 
 kode dibawah menjelaskan bagaimana kondisi berat badan dan tinggi badan terhadap kebiasaan merokok
 
@@ -193,7 +193,7 @@ kode dibawah menjelaskan bagaimana kondisi berat badan dan tinggi badan terhadap
 sns.scatterplot(x="height(cm)",y="weight(kg)", hue="smoking", data=df)
 ```
 
-![Alt text](5.png)
+![Alt text](weightheight.png)
 
 dari kode di bawah kita mendapatkan informasi bahwa laki-laki cenderung memiliki kebiasaan merokok dalam jangka umur yang beragam. Sedangkan perempuan hanya merokok pada jangka umur 20-30 tahun saja
 
@@ -201,7 +201,7 @@ dari kode di bawah kita mendapatkan informasi bahwa laki-laki cenderung memiliki
 sns.scatterplot(x="age",y="gender", hue="smoking", data=df)
 ```
 
-![Alt text](6.png)
+![Alt text](agegender.png)
 
 Pada tahap preprocessing ini, saya akan menjadikan feture smoking menjadi y dan fitur lain menjadi x.
 
@@ -260,7 +260,7 @@ plt.ylabel('Accuracy')
 plt.show()
 ```
 
-![Alt text](7.png)
+![Alt text](variasi jumlah.png)
 
 ## Evaluation
 
@@ -301,7 +301,7 @@ plt.show()
 #Akurasi Data Training: 72.20%
 ```
 
-![Alt text](8.png)
+![Alt text](evaluasi.png)
 
 setelah melakukan reduksi dimensi menggunakan PCA (Principal Component Analysis), hasil outputnya "Akurasi Data Testing: 71.31%" dan "Akurasi Data Training: 72.20%" , Output tersebut menunjukkan bahwa model KNN, setelah dilatih pada data pelatihan dan diuji pada data uji, memiliki akurasi yang relatif baik.
 
@@ -330,7 +330,7 @@ ax.yaxis.set_ticklabels(['False','True'])
 plt.show()
 ```
 
-![Alt text](9.png)
+![Alt text](confusion.png)
 
 ```bash
 # Confusion Matrix
