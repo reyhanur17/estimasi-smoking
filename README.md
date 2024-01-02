@@ -170,7 +170,7 @@ plt.title("Perbandingan data perempuan dan laki-laki di dataset")
 df["gender"].value_counts().plot.pie(explode = [0, 0.15], autopct='%1.3f%%', shadow = True)
 ```
 
-![Alt text](pie chart2.png)
+![Alt text](piechart2.png)
 
 lalu saya akan membuat diagram batang (bar chart) yang menunjukkan jumlah perokok berdasarkan jenis kelamin (gender)
 
@@ -185,7 +185,7 @@ plt.ylabel("Jumlah Perokok Berdasarkan Gender")
 plt.tight_layout()
 ```
 
-![Alt text](bar chart.png)
+![Alt text](barchart.png)
 
 kode dibawah menjelaskan bagaimana kondisi berat badan dan tinggi badan terhadap kebiasaan merokok
 
@@ -260,7 +260,7 @@ plt.ylabel('Accuracy')
 plt.show()
 ```
 
-![Alt text](variasi jumlah.png)
+![Alt text](variasijumlah.png)
 
 ## Evaluation
 
