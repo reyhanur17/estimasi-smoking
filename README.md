@@ -351,6 +351,6 @@ Dari hasil confusion matrix diatas, memiliki akurasi yang baik, karena mendapatk
 
 ## Deployment
 
-Berikut link menuju app [estimasi-smoking-reyhan](knn-reyhan-malamb)
+Berikut link menuju app [estimasi-smoking-reyhan](https://knn-reyhan-malamb.streamlit.app/)
 ![Alt text](1.png)
 ![Alt text](2.png)
