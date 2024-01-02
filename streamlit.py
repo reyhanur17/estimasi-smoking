@@ -15,7 +15,7 @@ smoking_model = pickle.load(open('smoking_knn.sav','rb'))
 df = pd.read_csv('smoking.csv')
 
 st.title('Prediksi Perilaku Merokok Berdasarkan Kondisi Kesehatan')
-st.caption('Reyhan xxxx | 21xxxx')
+st.caption('Nur Muhammad Reyhan | 211351106')
 st.write('\n')
 
 #visualisasi
