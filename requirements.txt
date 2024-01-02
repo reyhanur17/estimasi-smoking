@@ -4,4 +4,5 @@ streamlit
 scikit-learn
 pip==22.3.1
 matplotlib==3.7.1
-seaborn 
+seaborn
+mlxtend
