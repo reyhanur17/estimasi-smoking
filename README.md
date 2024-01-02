@@ -160,7 +160,7 @@ plt.figure(figsize = [8, 8], clear = True, facecolor = "#ABB2B9")
 plt.title("Perbandingan data perokok dan non perokok")
 df["smoking"].value_counts().plot.pie(explode = [0, 0.15], autopct='%1.3f%%', shadow = True)
 ```
-
+![Alt text](piechart.png)
 
 lalu saya juga akan membuat diagram lingkaran (pie chart) yang membandingkan jumlah data perempuan dan laki-laki di dataset.
 
