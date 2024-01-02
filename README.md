@@ -352,5 +352,5 @@ Dari hasil confusion matrix diatas, memiliki akurasi yang baik, karena mendapatk
 
 ## Deployment
 
-Berikut link menuju app [Nama Streamlit](https://abcdefg.streamlit.app/)
+Berikut link menuju app [smoking-reyhan](https://estimasi-smoking-d8v58v9xugugyuvbkmaubk.streamlit.app/)
 ![Alt text](deploy-app.png)
