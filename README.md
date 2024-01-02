@@ -143,7 +143,7 @@ plt.figure(figsize=(20,10))
 sns.heatmap(df.corr(),annot=True)
 ```
 
-![Alt text](1.png)
+
 
 Kode dibawah digunakan untuk menghitung korelasi antara variabel-variabel dalam DataFrame df dengan variabel target 'smoking' dan kemudian menyusunnya dalam bentuk DataFrame.
 
@@ -161,7 +161,6 @@ plt.title("Perbandingan data perokok dan non perokok")
 df["smoking"].value_counts().plot.pie(explode = [0, 0.15], autopct='%1.3f%%', shadow = True)
 ```
 
-![Alt text](2.png)
 
 lalu saya juga akan membuat diagram lingkaran (pie chart) yang membandingkan jumlah data perempuan dan laki-laki di dataset.
 
@@ -353,4 +352,5 @@ Dari hasil confusion matrix diatas, memiliki akurasi yang baik, karena mendapatk
 ## Deployment
 
 Berikut link menuju app [smoking-reyhan](https://estimasi-smoking-d8v58v9xugugyuvbkmaubk.streamlit.app/)
-![Alt text](deploy-app.png)
+![Alt text](1.png)
+![Alt text](2.png)
